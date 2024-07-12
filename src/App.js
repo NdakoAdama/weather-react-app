@@ -3,6 +3,7 @@ import "./App.css";
 export default function App() {
   return (
     <div className="App">
+      <div className="Container">
       <h1>Weather</h1>
       <footer>
         This project was coded by Ndako Adama and is open sourced on{" "}
@@ -18,6 +19,7 @@ export default function App() {
           netlify.
         </a>
       </footer>
+      </div>
     </div>
   );
 }
